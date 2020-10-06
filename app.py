@@ -44,7 +44,7 @@ def model_predict(img_path):
     
     if preds>=0.5:
         preds="Covid-Positive"
-    elif preds==1:
+    else:
         preds="Covid-Negative"
 
     
